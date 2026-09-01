@@ -7,11 +7,11 @@ import random  # 导入"随机"模块，后面用它生成随机数
 # 游戏开始提示
 print("=" * 30)
 print("欢迎来玩猜数字游戏！")
-print("我心里想了一个 1~100 之间的数字")
+print("我心里想了一个 1~1000 之间的数字")
 print("=" * 30)
 
 # 生成 1~100 之间的随机数，存到变量 answer 里
-answer = random.randint(1, 100)
+answer = random.randint(1, 1000)
 
 # guesses 记录你猜了几次，从 0 开始
 guesses = 0
